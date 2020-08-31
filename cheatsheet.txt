@@ -1,0 +1,14 @@
+Creating a branch and automatically switching to it
+- git checkout -b branchname e.g. git checkout -b firstbuild
+Switching to a branch
+- git checkout branchname e.g. git checkout firstbuild, git checkout master
+Listing all branches
+- git branch
+Pushing changes only to that branch
+- (add and commit like normal)
+- git push origin branchname e.g. git push origin firstbuild
+Merging branch to master
+- (make sure your on master) git checkout master
+- git merge branchname e.g. git merge firstbuild
+Deleting a branch
+- git branch -d branchname e.g. git branch -d firstbuild
