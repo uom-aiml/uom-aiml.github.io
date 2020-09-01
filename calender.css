@@ -1,11 +1,11 @@
 :root {
   --primary: #A915CB;
-  --primary-text: white;
+  --primary-text: black;
   --font: 'Roboto', sans-serif;
 }
 
 body {
-  background-color: #d312dc;
+  background-color: white;
 }
 
 #events {
@@ -15,76 +15,9 @@ body {
 }
 
 #events-wrapper {
-  height: 70vh;
+  max-height: 70vh;
   overflow-y: auto;
-}
-
-
-#calender {
-  text-align: center;
-  font-family: var(--font);
-}
-
-#calender-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-#month-year {
-  width: 400px;
-}
-
-.header {
-  color: var(--primary-text);
-}
-
-.switch-month {
-  background-color: Transparent;
-  background-repeat:no-repeat;
-  border: none;
-  cursor:pointer;
-  overflow: hidden;
-
-  font-size: 50px;
-}
-
-#calender-wrapper {
-  width: 100%;
-  height: 70vh;
-
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  grid-template-rows: 0.5fr, repeat(6, 1fr);
-
-  border: 1px solid black;
-  border-radius: 20px;
-  box-shadow: 3px 3px 1px 1px #000;
-
-  background-color: white;
-}
-
-
-.day {
-  width: 100%;
-  height: 100%;
-  margin: auto;
-
-  font-size: 2em;
-  color: black;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.day-text {
-  font-size: 1em;
-}
-
-.has-event {
-  color: var(--primary);
+  overflow-x: hidden;
 }
 
 .event-card {
@@ -148,4 +81,89 @@ body {
 
 .event-card-desc {
   font-size: 1em;
+}
+
+#reset-btn {
+  background-color: white;
+  color: var(--primary);
+
+  border-radius: 20px;
+  border: 1px solid var(--primary);
+
+  width: 100%;
+}
+
+/* ------------------------------------------------------------------- */
+
+#calender {
+  text-align: center;
+  font-family: var(--font);
+}
+
+#calender-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#calender-month-year {
+  width: 400px;
+}
+
+.header {
+  color: var(--primary-text);
+}
+
+.clear-btn {
+  background-color: Transparent;
+  border: none;
+  cursor:pointer;
+}
+
+#calender-month-left, #calender-month-right{
+  font-size: 50px;
+}
+
+#calender-wrapper {
+  width: 100%;
+  height: 70vh;
+
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: 0.5fr, repeat(6, 1fr);
+
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: 3px 3px 1px 1px #000;
+
+  background-color: white;
+}
+
+.day {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+
+  font-size: 2em;
+  color: black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.day:focus {
+  background-color: var(--primary);
+  color: white;
+  border-radius: 20px;
+  outline: none;
+}
+
+.day-text {
+  font-size: 1em;
+}
+
+.has-event {
+  color: var(--primary);
 }
