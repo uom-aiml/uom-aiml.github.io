@@ -1,0 +1,151 @@
+:root {
+  --primary: #A915CB;
+  --primary-text: white;
+  --font: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #d312dc;
+}
+
+#events {
+  font-family: var(--font);
+  /* display: none; */
+  /* display none on load */
+}
+
+#events-wrapper {
+  height: 70vh;
+  overflow-y: auto;
+}
+
+
+#calender {
+  text-align: center;
+  font-family: var(--font);
+}
+
+#calender-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#month-year {
+  width: 400px;
+}
+
+.header {
+  color: var(--primary-text);
+}
+
+.switch-month {
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+
+  font-size: 50px;
+}
+
+#calender-wrapper {
+  width: 100%;
+  height: 70vh;
+
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: 0.5fr, repeat(6, 1fr);
+
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: 3px 3px 1px 1px #000;
+
+  background-color: white;
+}
+
+
+.day {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+
+  font-size: 2em;
+  color: black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.day-text {
+  font-size: 1em;
+}
+
+.has-event {
+  color: var(--primary);
+}
+
+.event-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+
+
+  margin: 20px 0px;
+  width: 100%;
+  min-width: 200px;
+}
+
+.event-card-info, .event-card-date {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  border-radius: 7px 0px 0px 7px;
+  width: 100%;
+}
+
+.event-card-info {
+  align-items: flex-start;
+
+  text-align: justify;
+  word-break: break-word;
+
+  margin: 5px 20px;
+}
+
+.event-card-date {
+  align-items: center;
+
+  --x : 75px;
+  min-height: var(--x);
+  width: var(--x);
+  min-width: var(--x);
+
+  background-color: var(--primary);
+  color: white;
+}
+
+.event-card-day {
+  font-size: 1.5em;
+}
+
+.event-card-month {
+  font-size: 1em;
+}
+
+.event-card-name {
+  font-size: 1.5em;
+  color: var(--primary);
+}
+
+.event-card-desc {
+  font-size: 1em;
+}
