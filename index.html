@@ -10,16 +10,23 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous">
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-
-    <!-- Final Fonts -->
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
-     <!-- Font-awesome icons -->
+     <!-- FA v5 icons (fab) -->
      <link rel="stylesheet" type="text/css" href="font-awesome/css/all.min.css">
+
+     <!-- FA v4 icons(fa) -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+     <!-- Simplebar CSS and JS (scrollbar) -->
+     <link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css"/>
+     <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
+
+     <!-- Our CSS stylesheets -->
      <link rel="stylesheet" type="text/css" href="index.css">
+     <link rel="stylesheet" href="calender.css">
 
     <title>AI/ML Society</title>
   </head>
@@ -38,7 +45,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         </div>
-      <div class="container-fluid">
+      <div class="">
           <div class="collapse navbar-collapse" id="navbarToggle">
             <ul class="nav navbar-nav mr-auto">
               <li class="nav-item">
@@ -66,7 +73,7 @@
 
     <!-- Vertical navbar -->
     <nav class="navbar navbar-expand-sm">
-      <div class="icon-bar">
+      <div class="icon-bar mr-1">
         <a href="https://www.facebook.com/AIandMLSoc/" target="_blank">
           <i class="fab fa-facebook" ></i>
         </a>
@@ -84,205 +91,236 @@
 
 
     <!-- Website Header -->
-    <div class="container-fluid title-section">
-      <div class="container-fluid inner-title-section">
-        <h1 class="headings"><b>AI/ML Society</b></h1>
-        <br>
-        <a href="https://www.manchester.ac.uk/" class="headings">
-          <h4>@ THE UNIVERSITY OF MANCHESTER</h4>
-        </a>
+    <div class="title-section section-black">
+      <div class="inner-title-section">
+        <div class="inner-inner-title-section">
+          <h1 class="headings"><b>AI/ML Society</b></h1>
+          <br>
+          <a href="https://www.manchester.ac.uk/" class="headings">
+            <h4>@ THE UNIVERSITY OF MANCHESTER</h4>
+          </a>
+        </div>
+        <div class="bubble">
+        </div>
       </div>
-      <div class="bubble">
+    </div>
+
+    <!-- About Us Section -->
+    <div class="about-section section-purple">
+      <div class="inner-about-section">
+        <h1 class="">About Us</h1>
+        <p>hm</p>
       </div>
     </div>
 
 
     <!-- Meet our team section -->
-    <div class="container-fluid team-info">
-      <h2>Meet Our Team</h2>
-      <br>
-      <!-- Row 1 -->
-      <div class="row d-flex justify-items-around">
-        <div class="col-sm-3">
-          <div class="image-card container-fluid">
-            <div class="image-inner-side">
-              <div class="image-front">
-                <img src="assets/profile.jpg">
-              </div>
-              <div class="image-back">
-                <img src="assets/cat-meme.jpg" style="display:block;">
+    <div class="team-section section-white">
+      <div class="inner-team-section">
+        <h1>Meet Our Team</h1>
+        <br>
+        <div class="team-wrapper">
+          <div class="team-wrapper-item">
+            <div class="image-card ">
+              <div class="image-inner-side">
+                <div class="image-front">
+                  <img src="assets/profile.jpg">
+                </div>
+                <div class="image-back">
+                  <img src="assets/cat-meme.jpg" style="display:block;">
+                </div>
               </div>
             </div>
+            <div class="caption center-block">
+              <h6 class="committee-position">President</h6>
+              <h4 style="font-weight: normal;">Mateusz Wasilewski</h4>
+              <a href="#" target="_blank"><i class="fab fa-linkedin team-li"></i></a>
+            </div>
           </div>
-          <div class="caption center-block">
-            <h6 class="committee-position">President</h6>
-            <h4 style="font-weight: normal;">Mateusz Wasilewski</h4>
-            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
-          </div>
-        </div>
 
-        <div class="col-sm-3">
-          <div class="image-card container-fluid">
-            <div class="image-inner-side">
-              <div class="image-front">
-                <img src="assets/profile.jpg">
-              </div>
-              <div class="image-back">
-                <img src="assets/cat-meme.jpg" style="display:block;">
+          <div class="team-wrapper-item">
+            <div class="image-card ">
+              <div class="image-inner-side">
+                <div class="image-front">
+                  <img src="assets/profile.jpg">
+                </div>
+                <div class="image-back">
+                  <img src="assets/cat-meme.jpg" style="display:block;">
+                </div>
               </div>
             </div>
+            <div class="caption center-block">
+              <h6 class="committee-position">Project Manager</h6>
+              <h4 style="font-weight: normal;">Mateusz Wasilewski</h4>
+              <a href="#" target="_blank"><i class="fab fa-linkedin team-li"></i></a>
+            </div>
           </div>
-          <div class="caption center-block">
-            <h6 class="committee-position">Project Manager</h6>
-            <h4 style="font-weight: normal;">Mateusz Wasilewski</h4>
-            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
-          </div>
-        </div>
 
-        <div class="col-sm-3">
-          <div class="image-card container-fluid">
-            <div class="image-inner-side">
-              <div class="image-front">
-                <img src="assets/profile.jpg">
-              </div>
-              <div class="image-back">
-                <img src="assets/cat-meme.jpg" style="display:block;">
+          <div class="team-wrapper-item">
+            <div class="image-card ">
+              <div class="image-inner-side">
+                <div class="image-front">
+                  <img src="assets/profile.jpg">
+                </div>
+                <div class="image-back">
+                  <img src="assets/cat-meme.jpg" style="display:block;">
+                </div>
               </div>
             </div>
+            <div class="caption center-block">
+              <h6 class="committee-position">Project Manager</h6>
+              <h4 style="font-weight: normal;">Mateusz Wasilewski</h4>
+              <a href="#" target="_blank"><i class="fab fa-linkedin team-li"></i></a>
+            </div>
           </div>
-          <div class="caption center-block">
-            <h6 class="committee-position">Project Manager</h6>
-            <h4 style="font-weight: normal;">Mateusz Wasilewski</h4>
-            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
-          </div>
-        </div>
 
-        <div class="col-sm-3">
-          <div class="image-card container-fluid">
-            <div class="image-inner-side">
-              <div class="image-front">
-                <img src="assets/profile.jpg">
-              </div>
-              <div class="image-back">
-                <img src="assets/cat-meme.jpg" style="display:block;">
+          <div class="team-wrapper-item">
+            <div class="image-card ">
+              <div class="image-inner-side">
+                <div class="image-front">
+                  <img src="assets/profile.jpg">
+                </div>
+                <div class="image-back">
+                  <img src="assets/cat-meme.jpg" style="display:block;">
+                </div>
               </div>
             </div>
+            <div class="caption center-block">
+              <h6 class="committee-position">Project Manager</h6>
+              <h4 style="font-weight: normal;">Mateusz Wasilewski</h4>
+              <a href="#" target="_blank"><i class="fab fa-linkedin team-li"></i></a>
+            </div>
           </div>
-          <div class="caption center-block">
-            <h6 class="committee-position">Project Manager</h6>
-            <h4 style="font-weight: normal;">Mateusz Wasilewski</h4>
-            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+
+          <div class="team-wrapper-item">
+            <div class="image-card ">
+              <div class="image-inner-side">
+                <div class="image-front">
+                  <img src="assets/profile.jpg">
+                </div>
+                <div class="image-back">
+                  <img src="assets/cat-meme.jpg" style="display:block;">
+                </div>
+              </div>
+            </div>
+            <div class="caption center-block">
+              <h6 class="committee-position">Treasurer</h6>
+              <h4 style="font-weight: normal;">Yann McLatchie</h4>
+              <a href="#" target="_blank"><i class="fab fa-linkedin team-li"></i></a>
+            </div>
+          </div>
+
+          <div class="team-wrapper-item">
+            <div class="image-card ">
+              <div class="image-inner-side">
+                <div class="image-front">
+                  <img src="assets/profile.jpg">
+                </div>
+                <div class="image-back">
+                  <img src="assets/cat-meme.jpg" style="display:block;">
+                </div>
+              </div>
+            </div>
+            <div class="caption center-block">
+              <h6 class="committee-position">Outreach Officer</h6>
+              <h4 style="font-weight: normal;">Manav Gupta</h4>
+              <a href="#" target="_blank"><i class="fab fa-linkedin team-li"></i></a>
+            </div>
+          </div>
+
+          <div class="team-wrapper-item">
+            <div class="image-card ">
+              <div class="image-inner-side">
+                <div class="image-front">
+                  <img src="assets/profile.jpg">
+                </div>
+                <div class="image-back">
+                  <img src="assets/cat-meme.jpg" style="display:block;">
+                </div>
+              </div>
+            </div>
+            <div class="caption center-block">
+              <h6 class="committee-position">Inclusion Officer</h6>
+              <h4 style="font-weight: normal;">Klaudia Kreft</h4>
+              <a href="#" target="_blank"><i class="fab fa-linkedin team-li"></i></a>
+            </div>
+          </div>
+
+          <div class="team-wrapper-item">
+            <div class="image-card ">
+              <div class="image-inner-side">
+                <div class="image-front">
+                  <img src="assets/manya.jpg">
+                </div>
+                <div class="image-back">
+                  <img src="assets/cat-meme.jpg" style="display:block;">
+                </div>
+              </div>
+            </div>
+            <div class="caption center-block">
+              <h6 class="committee-position">Head of Innovation</h6>
+              <h4 style="font-weight: normal;">Manya Girdhar</h4>
+              <a href="https://www.linkedin.com/in/manya-girdhar/" target="_blank"><i class="fab fa-linkedin team-li"></i></a>
+            </div>
           </div>
         </div>
       </div>
+    </div>
 
-      <br>
+    <!-- Events section -->
+    <div class="events-section section-black">
+      <div class="inner-events-section">
+        <h1 id="events-header" class="header">Events</h1>
+        <div class="row">
+          <div id="events" class="col-12 col-md-4">
+            <h1 id="" class="header invisible">-</h1>
+            <div id="events-wrapper" data-simplebar></div>
+          </div>
 
-      <!-- Row 2 -->
-      <div class="row d-flex justify-items-around">
-        <div class="col-sm-3">
-          <div class="image-card container-fluid">
-            <div class="image-inner-side">
-              <div class="image-front">
-                <img src="assets/profile.jpg">
-              </div>
-              <div class="image-back">
-                <img src="assets/cat-meme.jpg" style="display:block;">
-              </div>
+          <div id="calender" class="col-8  d-none d-md-block">
+            <div id="calender-header" class="">
+              <button id="calender-month-left" class="clear-btn"><i class="fa fa-caret-left"></i></button>
+              <h1 id="calender-month-year" class=""></h1>
+              <button id="calender-month-right" class="clear-btn"><i class="fa fa-caret-right"></i></button>
             </div>
-          </div>
-          <div class="caption center-block">
-            <h6 class="committee-position">Treasurer</h6>
-            <h4 style="font-weight: normal;">Yann McLatchie</h4>
-            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
-          </div>
-        </div>
-
-        <div class="col-sm-3">
-          <div class="image-card container-fluid">
-            <div class="image-inner-side">
-              <div class="image-front">
-                <img src="assets/profile.jpg">
-              </div>
-              <div class="image-back">
-                <img src="assets/cat-meme.jpg" style="display:block;">
-              </div>
-            </div>
-          </div>
-          <div class="caption center-block">
-            <h6 class="committee-position">Outreach Officer</h6>
-            <h4 style="font-weight: normal;">Manav Gupta</h4>
-            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
-          </div>
-        </div>
-
-        <div class="col-sm-3">
-          <div class="image-card container-fluid">
-            <div class="image-inner-side">
-              <div class="image-front">
-                <img src="assets/profile.jpg">
-              </div>
-              <div class="image-back">
-                <img src="assets/cat-meme.jpg" style="display:block;">
-              </div>
-            </div>
-          </div>
-          <div class="caption center-block">
-            <h6 class="committee-position">Inclusion Officer</h6>
-            <h4 style="font-weight: normal;">Klaudia Kreft</h4>
-            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
-          </div>
-        </div>
-
-        <div class="col-sm-3">
-          <div class="image-card container-fluid">
-            <div class="image-inner-side">
-              <div class="image-front">
-                <img src="assets/manya.jpg">
-              </div>
-              <div class="image-back">
-                <img src="assets/cat-meme.jpg" style="display:block;">
-              </div>
-            </div>
-          </div>
-          <div class="caption center-block">
-            <h6 class="committee-position">Head of Innovation</h6>
-            <h4 style="font-weight: normal;">Manya Girdhar</h4>
-            <a href="https://www.linkedin.com/in/manya-girdhar/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <div id="calender-wrapper" class=""></div>
           </div>
         </div>
       </div>
     </div>
 
     <!-- Contact Us Section -->
-    <div class="container-fluid contact-us-section">
-      <h2>Get In Touch</h2>
-      <h6> We can't wait to have you on board! </h6>
-      <br>
-      <div class="row">
-        <div class="col-sm-6">
-          <a href="" target="_blank">
-            <i class="fas fa-envelope fa-5x"></i>
-          </a>
-          <br>
-          <div class="caption center-block">
+    <div class="contact-section section-white">
+      <div class="inner-contact-section">
+        <h2 class="contact-header">Get In Touch</h2>
+        <h6 class="contact-text"> We can't wait to have you on board! </h6>
+        <br>
+        <div class="row text-center">
+          <div class="col-sm-6 ">
+            <a class="contact-link" href="" target="_blank">
+              <i class="fas fa-envelope fa-5x"></i>
+            </a>
             <br>
-            <h5>Email Us Your Queries</h5>
+            <div class="caption center-block">
+              <br>
+              <h5 class="contact-text">Email Us Your Queries</h5>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <a class="contact-link" href="https://uom-ai.slack.com/" target="_blank">
+              <i class="fab fa-slack fa-spin fa-5x"></i>
+            </a>
+            <div class="caption center-block">
+              <br>
+              <h5 class="contact-text">Join Our Slack Channel</h5>
+            </div>
           </div>
         </div>
-        <div class="col-sm-6">
-          <a href="https://uom-ai.slack.com/" target="_blank">
-            <i class="fab fa-slack fa-spin fa-5x"></i>
-          </a>
-          <div class="caption center-block">
-            <br>
-            <h5>Join Our Slack Channel</h5>
-          </div>
       </div>
     </div>
 
     <!-- Footer -->
-    <!-- <div class="container-fluid footer-section">
+    <!-- <div class=" footer-section">
       <p> Privacy Policy </p>
       <p> Terms and Conditions </p>
     </div> -->
@@ -291,5 +329,9 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- Calender JS -->
+    <script src="calender.js" type="text/javascript"></script>
+
   </body>
 </html>

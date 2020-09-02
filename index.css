@@ -2,7 +2,7 @@ html, body {
   /* background-color: '#F5F5F5';     dull white */
   /* max-width: 100%; */
   /* font-family: */
-  background-color: #FFFFFF;
+  /* background-color: #FFFFFF; <-- doesnt actually do anything...? */
   /* background-color: black; */
   margin: 0px;
   width: 100%;
@@ -11,25 +11,149 @@ html, body {
   padding: 0;
 }
 
-h2{
-  /* font-family: 'Press Start 2P', cursive; */
-}
-
-h3, h4{
-  /* font-family: 'Abel', sans-serif; */
-}
 
 img{
   /* max-width: 100%; */
   max-height: 100%;
 }
 
-.container-fluid{
-  text-align: center;
-  max-height: auto;
-  max-width: 100%;
-  margin-top: 0%;
-  /* border-bottom: 2px solid black; */
+
+.section-black, .section-white, .section-purple {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.section-black {
+  color: white;
+  background-color: black;
+}
+
+.section-white {
+  color: black;
+  background-color: white;
+}
+
+.section-purple {
+  color: white;
+  background-color: #A915CB;
+}
+
+.about-section {
+  min-height: 200px;
+  padding: 20px 0px;
+}
+
+.team-section {
+  padding: 20px 0px;
+}
+
+.contact-section {
+  min-height: 500px;
+  padding: 20px 0px;
+}
+
+.team-wrapper {
+  display: grid;
+  max-height: 100%;
+  margin: 20px;
+}
+
+@media(max-width: 600px){
+  .team-wrapper {
+     grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media(min-width: 600px){
+  .team-wrapper {
+     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media(min-width: 768px){
+  .team-wrapper {
+     grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media(min-width: 992px){
+  .team-wrapper {
+     grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+
+.team-wrapper-item {
+  padding: 20px;
+}
+
+/* Website Header */
+.inner-title-section{
+  width: 100%;
+  height: 100vh;
+  background-image: url('assets/neural-networks.png');
+  /* opacity: 80%; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  margin-left: 0px;
+  margin-top: 0px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  text-align: right;
+}
+
+.inner-inner-title-section{
+  margin-left: 50%;
+  margin-bottom: 10%;
+  text-align: left;
+  display: inline;
+  max-width: 50%;
+}
+
+@media(max-width: 600px) {
+  /* .inner-title-section {
+    background-image: none;
+  } */
+  .inner-inner-title-section {
+    margin-left: 30%;
+  }
+}
+
+
+/* About Us Section */
+.inner-about-section {
+  width: 80%;
+}
+
+
+/* Meet Our Team */
+.inner-team-section {
+  width: 80%;
+}
+
+/* Events section */
+.inner-events-section {
+  width: 80%;
+}
+
+/* Contact Us Section */
+.inner-contact-section{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* Horizontal Navbar */
@@ -79,30 +203,6 @@ img{
 }
 
 
-/* Website Header */
-.title-section{
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: right;
-  margin-left: 0px;
-  margin-top: 0px;
-  background-color: black;
-  background-image: url('assets/neural-networks.png');
-  /* opacity: 80%; */
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.inner-title-section{
-  margin-left: 50%;
-  margin-bottom: 10%;
-  text-align: left;
-  display: inline;
-  max-width: 50%;
-}
 
 .headings{
   display: inline;
@@ -130,13 +230,6 @@ color: #5fcad8;
 }
 
 
-/* Meet Our Team */
-.team-info{
-  width: 85%;
-  height: 100vh;
-  padding-top: 2%;
-  padding-right: 2%;
-}
 
 .committee-position{
   background-color: rgb(43,2,52);
@@ -168,7 +261,7 @@ color: #5fcad8;
   margin-right: 5%;
 }
 
-.team-info img{
+.team-wrapper-item img{
   /* border-radius: 60px; */
   border: 2px solid #555;
 }
@@ -205,45 +298,34 @@ color: #5fcad8;
   text-align: center;
 }
 
-.team-info a{
+.team-li{
   color: #A915CB;
 }
 
-.team-info a:hover {
+.team-li:hover {
   color: #5fcad8;
 }
 
-/* Contact Us Section */
-.contact-us-section{
-  width: 100%;
-  height: 70vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-left: 0px;
-  margin-top: 0px;
-  background-color: black;
-}
 
-.contact-us-section a{
+.contact-link {
   color: #A915CB;
 }
 
-.contact-us-section a:hover {
+.contact-link:hover {
   color: #5fcad8;
 }
 
-.contact-us-section h2{
-  color: #ffedff;
+.contact-header{
+  color: black;
 }
 
-.contact-us-section h6{
+.contact-text {
   color: #d312dc;
 }
 
-.contact-us-section h5{
+/* .contact-text{
   color: #ffedff;
-}
+} */
 
 /* Footer Section */
 /* .footer-section{
