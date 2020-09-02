@@ -10,12 +10,75 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous">
 
+    <!-- FA v5 icons (fab) -->
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/all.min.css">
+
     <!-- Link to css stylesheet -->
     <link rel="stylesheet" type="text/css" href="resources.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+
     <title>AI/ML Society</title>
   </head>
 
   <body>
+
+    <!-- Horizontal navbar -->
+    <!-- bg-dark navbar-dark sticky-top navbar-toggleable-md navbar-light-->
+    <nav class="navbar navbar-expand-sm navbar-light">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">
+          <img src="assets/logo.png" alt="AI/ML Society" height="40px"/>
+        </a>
+        <button class="navbar-toggler" data-target="#navbarToggle" aria-controls="navbarToggle"
+          type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        </div>
+      <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarToggle">
+            <ul class="nav navbar-nav mr-auto">
+              <li class="nav-item px-3">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="index.html#about-us">About Us</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="index.html#our-team">Our Team</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="index.html#events">Events</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="resources.html">Resources</a>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav px-3">
+              <a href="index.html#contact-us" class="button contact-us-button" style="white-space: nowrap; padding: 5px 10px 5px 10px; text-decoration: None;">
+                Contact Us
+              </a>
+            </ul>
+            </div>
+          </div>
+      </nav>
+
+    <!-- Vertical navbar -->
+    <nav class="navbar navbar-expand-sm">
+      <div class="icon-bar mr-1"  style="margin-top: 3%;">
+        <a href="https://www.facebook.com/AIandMLSoc/" target="_blank">
+          <i class="fab fa-facebook" ></i>
+        </a>
+        <a href="https://www.instagram.com/uomaiml/" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="#" target="_blank">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#" target="_blank">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </div>
+    </nav>
 
     <div class="resources-header">
       <h2><b> AI FOR EVERYONE </b></h2>
@@ -23,9 +86,7 @@
     </div>
 
     <div class="container-fluid filters">
-
       <br>
-
       <div class ="row resources">
         <div class = "col-sm-4  d-flex justify-content-around ">
           <div class='resource-section container-fluid'>

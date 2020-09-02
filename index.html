@@ -28,10 +28,12 @@
      <link rel="stylesheet" type="text/css" href="index.css">
      <link rel="stylesheet" href="calender.css">
 
+     <!-- Link to jquery -->
+     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
     <title>AI/ML Society</title>
   </head>
   <body>
-
 
     <!-- Horizontal navbar -->
     <!-- bg-dark navbar-dark sticky-top navbar-toggleable-md navbar-light-->
@@ -45,27 +47,28 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         </div>
-      <div class="">
+      <div class="container-fluid">
           <div class="collapse navbar-collapse" id="navbarToggle">
             <ul class="nav navbar-nav mr-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="index.html">Home</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item px-3">
                 <a class="nav-link" href="#">About Us</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Our Team</a>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#our-team">Our Team</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Events</a>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#events">Events</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Resources</a>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="resources.html" target="_blank">Resources</a>
               </li>
             </ul>
-            <ul class="nav navbar-nav">
-              <button class="btn navbar-btn contact-us-button">Contact Us</button>
+            <ul class="nav navbar-nav px-3">
+              <a href="index.html#contact-us" class="button contact-us-button"> Contact Us </a>
+              <!-- <button class="btn navbar-btn contact-us-button" href="#contact-us">Contact Us</button> -->
             </ul>
             </div>
           </div>
@@ -89,7 +92,6 @@
       </div>
     </nav>
 
-
     <!-- Website Header -->
     <div class="title-section section-black">
       <div class="inner-title-section">
@@ -106,7 +108,7 @@
     </div>
 
     <!-- About Us Section -->
-    <div class="about-section section-purple">
+    <div class="about-section section-purple" id="about-us">
       <div class="inner-about-section">
         <h1 class="">About Us</h1>
         <p>hm</p>
@@ -115,16 +117,15 @@
 
 
     <!-- Meet our team section -->
-    <div class="team-section section-white">
+    <div class="team-section section-white" id="our-team">
       <div class="inner-team-section">
         <h1>Meet Our Team</h1>
-        <br>
         <div class="team-wrapper">
           <div class="team-wrapper-item">
-            <div class="image-card ">
+            <div class="image-card" style="margin-left: 10%;">
               <div class="image-inner-side">
                 <div class="image-front">
-                  <img src="assets/profile.jpg">
+                  <img src="assets/mateusz.jpg">
                 </div>
                 <div class="image-back">
                   <img src="assets/cat-meme.jpg" style="display:block;">
@@ -133,8 +134,65 @@
             </div>
             <div class="caption center-block">
               <h6 class="committee-position">President</h6>
-              <h4 style="font-weight: normal;">Mateusz Wasilewski</h4>
+              <h4 style="font-weight: normal; white-space: nowrap;">Mateusz Wasilewski</h4>
               <a href="#" target="_blank"><i class="fab fa-linkedin team-li"></i></a>
+            </div>
+          </div>
+
+
+          <div class="team-wrapper-item">
+            <div class="image-card ">
+              <div class="image-inner-side">
+                <div class="image-front">
+                  <img src="assets/profile.jpg">
+                </div>
+                <div class="image-back">
+                  <img src="assets/cat-meme.jpg" style="display:block;">
+                </div>
+              </div>
+            </div>
+            <div class="caption center-block">
+              <h6 class="committee-position">Head of Tech</h6>
+              <h4 style="font-weight: normal;">Gassan Salama</h4>
+              <a href="#" target="_blank"><i class="fab fa-linkedin team-li"></i></a>
+            </div>
+          </div>
+
+          <div class="team-wrapper-item">
+            <div class="image-card ">
+              <div class="image-inner-side">
+                <div class="image-front">
+                  <img src="assets/profile.jpg">
+                </div>
+                <div class="image-back">
+                  <img src="assets/cat-meme.jpg" style="display:block;">
+                </div>
+              </div>
+            </div>
+            <div class="caption center-block">
+              <h6 class="committee-position">Treasurer, Project Manager</h6>
+            <h4 style="font-weight: normal;">Yann McLatchie</h4>
+              <a href="#" target="_blank"><i class="fab fa-linkedin team-li"></i></a>
+            </div>
+          </div>
+
+          <div class="team-wrapper-item">
+            <div class="image-card ">
+              <div class="image-inner-side">
+                <div class="image-front">
+                  <img src="assets/ivan.jpg">
+                </div>
+                <div class="image-back">
+                  <img src="assets/cat-meme.jpg" style="display:block;">
+                </div>
+              </div>
+            </div>
+            <div class="caption center-block">
+              <h6 class="committee-position">Project Manager</h6>
+              <h4 style="font-weight: normal;">Ivan Dewerpe</h4>
+              <a href="https://www.linkedin.com/in/ivandewerpe/" target="_blank">
+                <i class="fab fa-linkedin team-li"></i>
+              </a>
             </div>
           </div>
 
@@ -151,7 +209,7 @@
             </div>
             <div class="caption center-block">
               <h6 class="committee-position">Project Manager</h6>
-              <h4 style="font-weight: normal;">Mateusz Wasilewski</h4>
+              <h4 style="font-weight: normal;">Pablo Caetano</h4>
               <a href="#" target="_blank"><i class="fab fa-linkedin team-li"></i></a>
             </div>
           </div>
@@ -160,61 +218,7 @@
             <div class="image-card ">
               <div class="image-inner-side">
                 <div class="image-front">
-                  <img src="assets/profile.jpg">
-                </div>
-                <div class="image-back">
-                  <img src="assets/cat-meme.jpg" style="display:block;">
-                </div>
-              </div>
-            </div>
-            <div class="caption center-block">
-              <h6 class="committee-position">Project Manager</h6>
-              <h4 style="font-weight: normal;">Mateusz Wasilewski</h4>
-              <a href="#" target="_blank"><i class="fab fa-linkedin team-li"></i></a>
-            </div>
-          </div>
-
-          <div class="team-wrapper-item">
-            <div class="image-card ">
-              <div class="image-inner-side">
-                <div class="image-front">
-                  <img src="assets/profile.jpg">
-                </div>
-                <div class="image-back">
-                  <img src="assets/cat-meme.jpg" style="display:block;">
-                </div>
-              </div>
-            </div>
-            <div class="caption center-block">
-              <h6 class="committee-position">Project Manager</h6>
-              <h4 style="font-weight: normal;">Mateusz Wasilewski</h4>
-              <a href="#" target="_blank"><i class="fab fa-linkedin team-li"></i></a>
-            </div>
-          </div>
-
-          <div class="team-wrapper-item">
-            <div class="image-card ">
-              <div class="image-inner-side">
-                <div class="image-front">
-                  <img src="assets/profile.jpg">
-                </div>
-                <div class="image-back">
-                  <img src="assets/cat-meme.jpg" style="display:block;">
-                </div>
-              </div>
-            </div>
-            <div class="caption center-block">
-              <h6 class="committee-position">Treasurer</h6>
-              <h4 style="font-weight: normal;">Yann McLatchie</h4>
-              <a href="#" target="_blank"><i class="fab fa-linkedin team-li"></i></a>
-            </div>
-          </div>
-
-          <div class="team-wrapper-item">
-            <div class="image-card ">
-              <div class="image-inner-side">
-                <div class="image-front">
-                  <img src="assets/profile.jpg">
+                  <img src="assets/manav.jpg">
                 </div>
                 <div class="image-back">
                   <img src="assets/cat-meme.jpg" style="display:block;">
@@ -232,7 +236,7 @@
             <div class="image-card ">
               <div class="image-inner-side">
                 <div class="image-front">
-                  <img src="assets/profile.jpg">
+                  <img src="assets/klaudia.jpg">
                 </div>
                 <div class="image-back">
                   <img src="assets/cat-meme.jpg" style="display:block;">
@@ -260,15 +264,18 @@
             <div class="caption center-block">
               <h6 class="committee-position">Head of Innovation</h6>
               <h4 style="font-weight: normal;">Manya Girdhar</h4>
-              <a href="https://www.linkedin.com/in/manya-girdhar/" target="_blank"><i class="fab fa-linkedin team-li"></i></a>
+              <a href="https://www.linkedin.com/in/manya-girdhar/" target="_blank">
+                <i class="fab fa-linkedin team-li"></i>
+              </a>
             </div>
           </div>
+
         </div>
       </div>
     </div>
 
     <!-- Events section -->
-    <div class="events-section section-black">
+    <div class="events-section section-black" id="events">
       <div class="inner-events-section">
         <h1 id="events-header" class="header">Events</h1>
         <div class="row">
@@ -290,7 +297,7 @@
     </div>
 
     <!-- Contact Us Section -->
-    <div class="contact-section section-white">
+    <div class="contact-section section-white" id="contact-us">
       <div class="inner-contact-section">
         <h2 class="contact-header">Get In Touch</h2>
         <h6 class="contact-text"> We can't wait to have you on board! </h6>
