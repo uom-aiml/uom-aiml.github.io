@@ -48,11 +48,35 @@ html, body{
   font-size: 125%;
 }
 
-ul.tags {
+/* ul.tags {
     padding: 5px;
     list-style: none;
 }
 
 ul.tags li{
   display: inline;
+} */
+
+.resources{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.resources h5{
+  padding-bottom: 3%;
+  padding-top: 3%;
+  border-bottom: 1px solid #a915cb;
+}
+
+.resource-section{
+  border: 1px solid black;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.list-of-links{
+  height: 50vh;
+  overflow-x: auto;
+  overflow-y: scroll;
+  text-align: justify;
 }
