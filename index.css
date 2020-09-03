@@ -100,9 +100,9 @@ nav .navbar-nav li a{
   width: 100%;
   max-width: 100%;
   height: 100vh;
-  /* background-image: url('assets/neural-networks.png'); */
+  background-image: url('assets/neural-networks.png');
   /* opacity: 80%; */
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
   background-position: center center;
 
@@ -112,17 +112,16 @@ nav .navbar-nav li a{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
 
   text-align: right;
 }
 
 .inner-inner-title-section{
-  margin-left: 0vw;
+  margin-left: 50vw;
   margin-bottom: 10vh;
   text-align: left;
-  /* display: inline; */
-  /* max-width: 50vw; */
+  display: inline;
+  max-width: 50vw;
 }
 
 .about-text {
@@ -380,13 +379,13 @@ color: #5fcad8;
      grid-template-columns: repeat(1, 1fr);
   }
 
-  /* .inner-inner-title-section {
+  .inner-inner-title-section {
     margin-left: 30vw;
-  } */
-
-  #main-header {
-    font-size: 60px;
   }
+
+  /* .main-header {
+    font-size: 60px;
+  } */
 }
 
 /* >mobile */
