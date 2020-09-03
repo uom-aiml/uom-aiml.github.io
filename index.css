@@ -247,10 +247,12 @@ nav .navbar-nav li a{
 
 .headings{
   display: inline;
+  word-wrap: break-word;
 }
 
 .title-section h1{
-  font-size: 4em;
+  /* font-size: 4em; */
+  font-size: 70px;
   background-color: rgb(185,47,191);
   background-image: linear-gradient(90deg, rgba(185,47,191,1) 0%, rgba(204,125,193,1) 32%, rgba(95,202,216,1) 67%, rgba(197,32,232,1) 100%);
   -webkit-background-clip: text;
