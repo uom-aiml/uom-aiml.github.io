@@ -100,7 +100,7 @@ nav .navbar-nav li a{
   width: 100%;
   max-width: 100%;
   height: 100vh;
-  background-image: url('assets/neural-networks.png');
+  /* background-image: url('assets/neural-networks.png'); */
   /* opacity: 80%; */
   background-repeat: no-repeat;
   background-size: cover;
@@ -121,7 +121,7 @@ nav .navbar-nav li a{
   margin-bottom: 10vh;
   text-align: left;
   display: inline;
-  max-width: 50vw;
+  /* max-width: 50vw; */
 }
 
 .about-text {
