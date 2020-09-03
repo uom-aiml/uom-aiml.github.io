@@ -205,8 +205,12 @@ nav .navbar-nav li a{
 }
 
 .contact-us-button{
-  background-color: #a915cb;
-  color: #ffedff;
+  color: #a915cb;
+  border: 1px solid #a915cb;
+  border-radius: 5px;
+  margin: 5px;
+  text-align: center;
+  /* color: #ffedff; */
   padding-top: 5%;
   padding-bottom: 5%;
   padding-left: 6%;
@@ -365,6 +369,13 @@ color: #5fcad8;
   color: #a915cb;
 }
 
+.hidden-nav-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /* <mobile */
 @media(max-width: 600px){
   .team-wrapper {
@@ -398,6 +409,10 @@ color: #5fcad8;
 @media(min-width: 905px){
   .team-wrapper {
      grid-template-columns: repeat(3, 1fr);
+  }
+
+  .hidden-nav-item {
+    display: none;
   }
 }
 
