@@ -57,7 +57,8 @@ nav .navbar-nav li a{
 
 .about-section {
   min-height: 200px;
-  padding: 20px 0px;
+  max-width: 90%;
+  /* padding: 10px 0px; */
 }
 
 .team-section {
@@ -148,10 +149,22 @@ nav .navbar-nav li a{
 
 /* About Us Section */
 .inner-about-section {
-  width: 70%;
-  /* width: 85%; */
+  text-align: justify;
+  padding-top: 2%;
+  padding-left: 2%;
 }
 
+.trophy-img{
+  /* background-color: rgb(255,202,27);
+  background-image: linear-gradient(90deg, rgba(255,222,0,1) 0%, rgba(255,255,255,1) 100%, rgba(213,0,255,1) 100%, rgba(255,230,0,1) 100%, rgba(255,255,255,1) 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  text-shadow: yellow; */
+  color: white;
+}
 
 /* Meet Our Team */
 .inner-team-section {
