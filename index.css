@@ -143,12 +143,12 @@ nav .navbar-nav li a{
   padding: 3%;
   background-color: black;
   border-radius: 50px 50px;
-  color: #5fcad8;
+  color: #f547f2;   /* alternative pink */
 }
 
 .inner-about-section a:hover{
   background-color: black;
-  color: white;
+  color: #5fcad8;
 }
 
 
@@ -200,11 +200,6 @@ nav .navbar-nav li a{
   padding-top: 0rem;
 }
 
-.navbar a{
-  padding-left: 2%;
-  padding-right: 2%;
-}
-
 .navbar img{
   border: 2px solid #555;
 }
@@ -212,13 +207,17 @@ nav .navbar-nav li a{
 .contact-us-button{
   background-color: #a915cb;
   color: #ffedff;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 6%;
+  padding-right: 6%;
   white-space: nowrap;
-  /* padding: 3px 20px 3px 20px; */
-  text-decoration: none;
 }
 
 .contact-us-button:hover {
   background-color: #5fcad8;   /* blue */
+  text-decoration: none;
+  color: black;
 }
 
 
@@ -363,7 +362,7 @@ color: #5fcad8;
 }
 
 .contact-text {
-  color: #d312dc;
+  color: #a915cb;
 }
 
 /* <mobile */
