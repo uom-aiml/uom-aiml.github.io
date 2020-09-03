@@ -1,13 +1,6 @@
 :root {
   --primary: #A915CB;
   --primary-text: white;
-  --font: 'Roboto', sans-serif;
-}
-
-#events {
-  font-family: var(--font);
-  /* display: none; */
-  /* display none on load */
 }
 
 #events-wrapper {
@@ -94,7 +87,6 @@
 
 #calender {
   text-align: center;
-  font-family: var(--font);
 }
 
 #calender-header {
