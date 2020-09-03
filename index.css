@@ -112,12 +112,13 @@ nav .navbar-nav li a{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 
   text-align: right;
 }
 
 .inner-inner-title-section{
-  margin-left: 40vw;
+  margin-left: 0vw;
   margin-bottom: 10vh;
   text-align: left;
   /* display: inline; */
