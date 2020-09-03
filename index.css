@@ -400,6 +400,10 @@ color: #5fcad8;
   .about-text {
     padding: 20px 0px;
   }
+
+  .headings{
+    font-size: 50%;
+  }
 }
 
 /* >tablet */
