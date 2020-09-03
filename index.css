@@ -10,7 +10,7 @@ html, body {
   /* background-color: black; */
   /* margin: 0px; */
   margin: 0 auto;
-  min-width: 100%;
+  width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -97,7 +97,6 @@ nav .navbar-nav li a{
 
 /* Website Header */
 .inner-title-section{
-  width: 100%;
   max-width: 100%;
   height: 100vh;
   background-image: url('assets/neural-networks.png');
