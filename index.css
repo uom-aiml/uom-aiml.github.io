@@ -384,7 +384,7 @@ color: #5fcad8;
   }
 
   .main-header {
-    word-break: break-all;
+    font-size: 60px;
   }
 }
 
