@@ -248,6 +248,7 @@ nav .navbar-nav li a{
 .headings{
   display: inline;
   z-index: 2;
+  position: relative;
   /* word-wrap: break-word; */
 }
 
