@@ -117,10 +117,9 @@ nav .navbar-nav li a{
 }
 
 .inner-inner-title-section{
-  margin-left: 50vw;
+  margin-left: 40vw;
   margin-bottom: 10vh;
   text-align: left;
-  word-wrap: break-word;
   /* display: inline; */
   /* max-width: 50vw; */
 }
