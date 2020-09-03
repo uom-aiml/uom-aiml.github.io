@@ -154,16 +154,30 @@ nav .navbar-nav li a{
   padding-left: 2%;
 }
 
-.trophy-img{
-  /* background-color: rgb(255,202,27);
-  background-image: linear-gradient(90deg, rgba(255,222,0,1) 0%, rgba(255,255,255,1) 100%, rgba(213,0,255,1) 100%, rgba(255,230,0,1) 100%, rgba(255,255,255,1) 100%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-  text-shadow: yellow; */
+.inner-about-section a{
+  text-decoration: None;
+  padding: 3%;
+  background-color: #a915cb;
+  border-radius: 50px 50px;
   color: white;
+}
+
+.inner-about-section a:hover{
+  background-color: black;
+  color: #5fcad8;
+}
+
+.achievement{
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.trial{
+  background-color: black;
 }
 
 /* Meet Our Team */
