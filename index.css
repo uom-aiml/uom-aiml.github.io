@@ -120,6 +120,7 @@ nav .navbar-nav li a{
   margin-left: 50vw;
   margin-bottom: 10vh;
   text-align: left;
+  word-wrap: break-word;
   /* display: inline; */
   /* max-width: 50vw; */
 }
