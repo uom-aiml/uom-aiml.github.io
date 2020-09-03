@@ -380,9 +380,9 @@ color: #5fcad8;
      grid-template-columns: repeat(1, 1fr);
   }
 
-  .inner-inner-title-section {
+  /* .inner-inner-title-section {
     margin-left: 30vw;
-  }
+  } */
 
   #main-header {
     font-size: 60px;
