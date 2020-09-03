@@ -191,18 +191,19 @@ nav .navbar-nav li a{
 .footer-section{
   width: 100%;
   height: 10%;
-  background-color: grey;
+  background-color: black;
   margin-bottom: 0%;
   padding-top: 0.5%;
+  color: white;
 }
 
 .footer-section a{
-  color: black;
+  color: #5fcad8;
   text-decoration: none;
 }
 
 .footer-section a:hover{
-  color: white;
+  color: #a915cb;
   /* text-decoration: none; */
 }
 
@@ -348,7 +349,8 @@ color: #5fcad8;
 } */
 
 .image-back {
-  background-color: #2980b9;
+  /* background-color: #2980b9; */
+  background-color: transparent;
   color: white;
   transform: rotateY(-180deg);
   text-align: center;
