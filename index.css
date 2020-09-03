@@ -24,7 +24,7 @@ div {
 
 h1 {
   font-weight: 700;
-  font-size: 4em;
+  font-size: 3em;
 }
 
 img{
@@ -108,6 +108,7 @@ nav .navbar-nav li a{
 
   margin-left: 0px;
   margin-top: 0px;
+  margin-right: 5%;
 
   display: flex;
   flex-direction: column;
