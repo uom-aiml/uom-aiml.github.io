@@ -102,7 +102,7 @@ nav .navbar-nav li a{
   height: 100vh;
   background-image: url('assets/neural-networks.png');
   /* opacity: 80%; */
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
   background-position: center center;
 
@@ -383,9 +383,9 @@ color: #5fcad8;
     margin-left: 30vw;
   }
 
-  .main-header {
+  /* .main-header {
     font-size: 60px;
-  }
+  } */
 }
 
 /* >mobile */
