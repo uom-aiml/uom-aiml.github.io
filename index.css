@@ -177,7 +177,7 @@ nav .navbar-nav li a{
 /* Footer section */
 .footer-section{
   width: 100%;
-  height: 10%;
+  max-height: 13%;
   background-color: black;
   margin-bottom: 0%;
   padding-top: 0.5%;
