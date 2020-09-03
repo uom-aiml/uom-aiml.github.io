@@ -250,7 +250,7 @@ nav .navbar-nav li a{
   z-index: 2;
   position: relative;
   /* word-wrap: break-word; */
-
+  overflow: visible;
 }
 
 .title-section h1{
