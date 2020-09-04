@@ -2,13 +2,13 @@
 
 // Temproary fix - start page from top when reloaded
 // Scroll the page to the top on reload
-if ('scrollRestoration' in history) {
-    history.scrollRestoration = 'manual';
-}
+// if ('scrollRestoration' in history) {
+//     history.scrollRestoration = 'manual';
+// }
 
 // This has Cross-browser support.
 // For if the user scrolls down during reload - makes sure page is scrolled to the top when reloaded.
-window.scrollTo(0,0);
+// window.scrollTo(0,0);
 
 
 $(document).ready(function(){
