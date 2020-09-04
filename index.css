@@ -36,10 +36,13 @@ nav .navbar-nav li a{
   color: black !important;
   }
 
-  nav .navbar-nav li a:hover{
+nav .navbar-nav li a:hover{
     color: #A915CB !important;
 }
 
+/* .icon-bar a:hover{
+    color: #5fcad8 !important;
+} */
 
 
 .section-black, .section-white, .section-purple {
@@ -275,7 +278,7 @@ nav .navbar-nav li a{
   top: 25%;
 }
 
-.icon-bar a {
+.icon-bar a{
   display: block;
   text-align: center;
   padding: 18px;
@@ -283,7 +286,7 @@ nav .navbar-nav li a{
   color: #a915cb;
 }
 
-.icon-bar a:hover {
+.icon-bar a:hover{
   color: #5fcad8;
 }
 
