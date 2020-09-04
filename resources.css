@@ -5,13 +5,6 @@ html, body{
   padding: 0;
 }
 
-.container-fluid{
-  text-align: center;
-  max-height: auto;
-  max-width: 100%;
-  margin-top: 0%;
-}
-
 .resources-header{
   width: 100%;
   height: 20vh;
@@ -47,22 +40,56 @@ html, body{
   max-height: 10vh;
   font-size: 125%;
 }
-
+/*
 .resources{
   margin-left: 5%;
   margin-right: 5%;
+} */
+
+.resources-wrapper {
+  display: grid;
 }
 
-.resources h5{
+/* <=tablet */
+@media(max-width: 768px){
+  .resources-wrapper {
+     grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* >=tablet */
+@media(min-width: 768px){
+  .resources-wrapper {
+     grid-template-columns: repeat(2, 1fr);
+     margin-right: 100px;
+  }
+}
+
+/* >=laptop */
+@media(min-width: 1117px){
+  .resources-wrapper {
+     grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.resources-h5{
   padding-bottom: 3%;
   padding-top: 3%;
+  margin: 0px 20px;
   border-bottom: 1px solid #a915cb;
 }
 
-.resource-section{
+.resources-item {
   border: 1px solid black;
-  margin-left: 5%;
+  margin: 0px 40px 40px 40px;
+  text-align: center;
+  max-height: auto;
+  /* margin-left: 5%;
   margin-right: 5%;
+  text-align: center;
+  max-height: auto;
+  max-width: 100%;
+  margin-top: 0%; */
 }
 
 .list-of-links{
