@@ -93,6 +93,11 @@ nav .navbar-nav li a:hover{
   justify-items: center;
 }
 
+.social-icon-hover {
+  color:  #5fcad8!important;
+}
+
+
 
 .team-wrapper-item {
   padding: 20px;
