@@ -90,7 +90,7 @@ nav .navbar-nav li a:hover{
   margin: 20px;
   margin-top: 0%;
   /* align-items: center; */
-  /* justify-items: center; */
+  /* justify-content: center; */
 }
 
 .social-icon-hover {
@@ -340,6 +340,7 @@ color: #5fcad8;
   background-color: transparent;
   perspective: 1000px;
   text-align: center;
+  margin: auto;
   border-bottom: 2px solid #9d5dbb;
   /* border-top: 2px solid #000000; */
   padding-top: 1%;
