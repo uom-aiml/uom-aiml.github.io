@@ -1,8 +1,11 @@
 // index js
 
 // Temproary fix - start page from top when reloaded
-$(document).ready(function(){
-    $(this).scrollTop(0);
+// $(document).ready(function(){
+//     $(this).scrollTop(0);
+// });
+$(window).on('beforeunload', function(){
+  $(window).scrollTop(0);
 });
 
 $(document).ready(function(){
