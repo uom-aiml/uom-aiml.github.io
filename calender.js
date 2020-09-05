@@ -1,39 +1,39 @@
 let events = [
-  {
-    name: "first",
-    desc: "This is a very long description i have used for testing",
-    date: new Date(2020, 8, 30)
-  },
-  {
-    name: "second",
-    desc: "this is the second description",
-    date: new Date(2020, 8, 30)
-  },
-  {
-    name: "third",
-    desc: "jefhejhjh3jrh3",
-    date: new Date(2020, 8, 29)
-  },
-  {
-    name: "fourth",
-    desc: "jefhejhjh3jrh3",
-    date: new Date(2020, 8, 16)
-  },
-  {
-    name: "fourth",
-    desc: "jefhejhjh3jrh3",
-    date: new Date(2021, 0, 1)
-  },
-  {
-    name: "fourth",
-    desc: "jefhejhjh3jrh3",
-    date: new Date(2021, 0, 1)
-  },
-  {
-    name: "fourth",
-    desc: "jefhejhjh3jrh3",
-    date: new Date(2021, 0, 1)
-  }
+  // {
+  //   name: "first",
+  //   desc: "This is a very long description i have used for testing",
+  //   date: new Date(2020, 8, 30)
+  // },
+  // {
+  //   name: "second",
+  //   desc: "this is the second description",
+  //   date: new Date(2020, 8, 30)
+  // },
+  // {
+  //   name: "third",
+  //   desc: "jefhejhjh3jrh3",
+  //   date: new Date(2020, 8, 29)
+  // },
+  // {
+  //   name: "fourth",
+  //   desc: "jefhejhjh3jrh3",
+  //   date: new Date(2020, 8, 16)
+  // },
+  // {
+  //   name: "fourth",
+  //   desc: "jefhejhjh3jrh3",
+  //   date: new Date(2021, 0, 1)
+  // },
+  // {
+  //   name: "fourth",
+  //   desc: "jefhejhjh3jrh3",
+  //   date: new Date(2021, 0, 1)
+  // },
+  // {
+  //   name: "fourth",
+  //   desc: "jefhejhjh3jrh3",
+  //   date: new Date(2021, 0, 1)
+  // }
 ];
 
 // day is 1 indexed
