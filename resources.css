@@ -95,7 +95,7 @@ html, body{
 .list-of-links{
   height: 50vh;
   overflow-x: auto;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
   text-align: left;
   margin-bottom: 5%;
   padding: 4%;
