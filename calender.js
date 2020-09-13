@@ -8,32 +8,7 @@ let events = [
     name: "Virtual Society Fair",
     desc: "Visit our society's virtual stall at the University of Manchester's SU Fair for postgraduate students.",
     date: new Date(2020, 10, 6)
-  },
-  // {
-  //   name: "third",
-  //   desc: "jefhejhjh3jrh3",
-  //   date: new Date(2020, 8, 29)
-  // },
-  // {
-  //   name: "fourth",
-  //   desc: "jefhejhjh3jrh3",
-  //   date: new Date(2020, 8, 16)
-  // },
-  // {
-  //   name: "fourth",
-  //   desc: "jefhejhjh3jrh3",
-  //   date: new Date(2021, 0, 1)
-  // },
-  // {
-  //   name: "fourth",
-  //   desc: "jefhejhjh3jrh3",
-  //   date: new Date(2021, 0, 1)
-  // },
-  // {
-  //   name: "fourth",
-  //   desc: "jefhejhjh3jrh3",
-  //   date: new Date(2021, 0, 1)
-  // }
+  }
 ];
 
 // day is 1 indexed
