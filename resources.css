@@ -96,8 +96,25 @@ html, body{
   height: 50vh;
   overflow-x: auto;
   overflow-y: scroll;
-  text-align: justify;
+  text-align: left;
   margin-bottom: 5%;
+  margin-left: 3%;
+  padding: 4%;
+}
+
+.list-of-links h5{
+  padding-bottom: 1%;
+  color: #A915CB;
+}
+
+.list-of-links a{
+  text-decoration: none;
+  color: black;
+}
+
+.list-of-links a:hover{
+  text-decoration: none;
+  color: #5fcad8!important;
 }
 
 /* Footer section */
