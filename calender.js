@@ -2,12 +2,12 @@ let events = [
   {
     name: "Virtual Society Fair",
     desc: "Visit our society's virtual stall at the University of Manchester's SU Fair for undergraduate students.",
-    date: new Date(2020, 8, 24)
+    date: new Date(2020, 9, 6)
   },
   {
     name: "Virtual Society Fair",
     desc: "Visit our society's virtual stall at the University of Manchester's SU Fair for postgraduate students.",
-    date: new Date(2020, 9, 6)
+    date: new Date(2020, 9, 9)
   },
 ];
 
