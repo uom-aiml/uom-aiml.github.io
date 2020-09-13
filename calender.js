@@ -1,14 +1,14 @@
 let events = [
-  // {
-  //   name: "first",
-  //   desc: "This is a very long description i have used for testing",
-  //   date: new Date(2020, 8, 30)
-  // },
-  // {
-  //   name: "second",
-  //   desc: "this is the second description",
-  //   date: new Date(2020, 8, 30)
-  // },
+  {
+    name: "Virtual Society Fair",
+    desc: "Visit our society's virtual stall at the University of Manchester's SU Fair for undergraduate students.",
+    date: new Date(2020, 9, 24)
+  },
+  {
+    name: "Virtual Society Fair",
+    desc: "Visit our society's virtual stall at the University of Manchester's SU Fair for postgraduate students.",
+    date: new Date(2020, 10, 6)
+  },
   // {
   //   name: "third",
   //   desc: "jefhejhjh3jrh3",
