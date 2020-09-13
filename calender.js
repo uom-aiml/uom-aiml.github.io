@@ -138,6 +138,62 @@ function fillEvents(dateGiven) {
   }
 }
 
+// Backup scrollbar code for fill events
+// function fillEvents(dateGiven) {
+//   var container;
+//   if ($("#events-content").length == 0) {
+//     // if simplebar isnt working
+//     container = "#events-wrapper";
+//   } else {
+//     container = "#events-content";
+//   }
+//
+//   $(container).empty();
+//
+//   let eventsShown = [...events];
+//   //  creates a copy of events
+//
+//   if (typeof dateGiven !== "undefined") {
+//
+//     let filter = new Date(...dateGiven.split("-"));
+//     eventsShown = eventsShown.filter(event => event.date.getTime() == filter.getTime());
+//
+//   }
+//
+//   if (eventsShown.length == 0) {
+//     $(container).append("<p>No upcoming events.</p>");
+//   }
+//
+//   for (event of eventsShown) {
+//     let dateInner = `<div class="event-card-day">${event.date.getDate()}</div>
+//                 <div class="event-card-month">${s_months[event.date.getMonth()]}</div>`;
+//     let descInner = `<div class="event-card-name">${event.name}</div>
+//                 <div class="event-card-desc">${event.desc}</div>`;
+//
+//     let card = $("<div/>", {
+//       html: dateInner,
+//       class: "event-card-date"
+//     }).add($("<div/>", {
+//       html: descInner,
+//       class: "event-card-info"
+//     }));
+//
+//     $("<div/>", {
+//       html: card,
+//       class: "event-card"
+//     }).appendTo($(container));
+//   }
+//
+//   if (typeof dateGiven !== "undefined") {
+//     $("<button/>", {
+//       id: "reset-btn",
+//       html: "Reset",
+//       onClick: "fillEvents()"
+//     }).appendTo($(container));
+//   }
+//
+// }
+
 $(document).ready(function() {
   // SETTING UP
 
