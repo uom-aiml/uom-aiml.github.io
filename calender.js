@@ -1,14 +1,54 @@
 let events = [
   {
-    name: "Virtual Society Fair",
+    name: "Virtual Society Fair (Undergrad)",
     desc: "Visit our society's virtual stall at the University of Manchester's SU Fair for undergraduate students.",
     date: new Date(2020, 9, 6)
   },
-  // {
-  //   name: "Virtual Society Fair",
-  //   desc: "Visit our society's virtual stall at the University of Manchester's SU Fair for postgraduate students.",
-  //   date: new Date(2020, 9, 9)
-  // },
+  {
+    name: "Harry Potter Escape Room Social",
+    desc: "Come on over to our first social, it will be a Harry Potter style virtual escape room.",
+    date: new Date(2020, 9, 1)
+  },
+  {
+    name: "Virtual Society Fair (Postgrad)",
+    desc: "Visit our society's virtual stall at the University of Manchester's SU Fair for postgraduate students.",
+    date: new Date(2020, 9, 9)
+  },
+  {
+    name: "Society Expo",
+    desc: "Watch our society's video during the academic society expo, and learn more about the society and the committee.",
+    date: new Date(2020, 9, 5)
+  },
+  {
+    name: "Lecture: Time-Series and Forecasting",
+    desc: "Our first lecture will be on Bike Sharing, Time-Series and Forecasting, led by Yann, one of our project managers.",
+    date: new Date(2020, 9, 13)
+  },
+  {
+    name: "Advanced Workshop: Time-Series and Forecasting",
+    desc: "This workshop will follow on from our lecture on Bike Sharing, Time-Series and Forecasting.",
+    date: new Date(2020, 9, 14)
+  },
+  {
+    name: "Lecture: Natural Language Understanding",
+    desc: "Our second lecture on Natural Language Understanding with BERT, led by Mateusz, the president of the society.",
+    date: new Date(2020, 9, 27)
+  },
+  {
+    name: "Advanced Workshop: Natural Language Understanding",
+    desc: "This workshop will follow on from our lecture on Natural Language Understanding.",
+    date: new Date(2020, 9, 28)
+  },
+  {
+    name: "Lecture: Adversarial Attacks on CNNs",
+    desc: "Our third lecture will be on Adversarial Attacks on CNNs and Blackbox Attacks, led by Ivan, one of our project managers.",
+    date: new Date(2020, 10, 10)
+  },
+  {
+    name: "Advanced Workshop: Adversarial Attacks on CNNs",
+    desc: "This workshop will follow on from our lecture on Adversarial Attacks on CNNs and Blackbox Attacks.",
+    date: new Date(2020, 10, 11)
+  },
 ];
 
 // day is 1 indexed
@@ -106,7 +146,7 @@ function fillEvents(dateGiven) {
   }
 
   if (eventsShown.length == 0) {
-    $("#events-content").append("<p>No upcoming events.</p>");
+    $("#events-content").append("<p>No upcoming events on this day.</p>");
   }
 
   for (event of eventsShown) {
