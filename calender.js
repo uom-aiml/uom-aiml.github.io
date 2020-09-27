@@ -72,6 +72,31 @@ let events = [
     desc: "TBC",
     date: new Date(2020, 11, 9)
   },
+  {
+    name: "Beginners Workshop: What is Machine Learning?",
+    desc: "This workshop led by Gassan, the Head of Tech, will introduce the basic concepts of ML, including basic notation, stats and curve fitting.",
+    date: new Date(2020, 9, 20)
+  },
+  {
+    name: "Beginners Workshop: What makes up a learning algorithm?",
+    desc: "This workshop will discuss datasets, cost functions, optimization routines, parameter fitting and hyperparameters.",
+    date: new Date(2020, 10, 3)
+  },
+  {
+    name: "Beginners Workshop: Traditional learning algorithms",
+    desc: "This workshop will discuss Linear Regression, Logistic Regression, Decision Trees, Random Forest, SVM and k-Nearest Neighbors.",
+    date: new Date(2020, 10, 17)
+  },
+  {
+    name: "Beginners Workshop: Basics of Neural Nets",
+    desc: "This workshop will look at Feedforward neural network architecture and Deep Learning Basics.",
+    date: new Date(2020, 11, 1)
+  },
+  {
+    name: "Beginners Workshop: Covnets and Sequential Models",
+    desc: "This workshop will look at use cases of Covnets and Sequential Models and discuss where and why they supersede fully connected neural network architectures.",
+    date: new Date(2020, 11, 15)
+  },
 ];
 
 // day is 1 indexed
