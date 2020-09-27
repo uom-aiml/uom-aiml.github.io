@@ -1,3 +1,6 @@
+// day is 1 indexed
+// month is 0 indexed - so jan is 0
+
 let events = [
   {
     name: "Virtual Society Fair (Undergrad)",
@@ -48,6 +51,26 @@ let events = [
     name: "Advanced Workshop: Adversarial Attacks on CNNs",
     desc: "This workshop will follow on from our lecture on Adversarial Attacks on CNNs and Blackbox Attacks.",
     date: new Date(2020, 10, 11)
+  },
+  {
+    name: "Lecture 4",
+    desc: "TBC",
+    date: new Date(2020, 10, 24)
+  },
+  {
+    name: "Advanced Workshop 4",
+    desc: "TBC",
+    date: new Date(2020, 10, 25)
+  },
+  {
+    name: "Lecture 5",
+    desc: "TBC",
+    date: new Date(2020, 11, 8)
+  },
+  {
+    name: "Advanced Workshop 5",
+    desc: "TBC",
+    date: new Date(2020, 11, 9)
   },
 ];
 
