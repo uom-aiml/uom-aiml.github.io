@@ -25,12 +25,12 @@ let events = [
   {
     name: "Lecture: Time-Series and Forecasting",
     desc: "Our first lecture will be on Bike Sharing, Time-Series and Forecasting, led by Yann, one of our project managers.",
-    date: new Date(2020, 9, 13)
+    date: new Date(2020, 9, 20)
   },
   {
     name: "Advanced Workshop: Time-Series and Forecasting",
     desc: "This workshop will follow on from our lecture on Bike Sharing, Time-Series and Forecasting.",
-    date: new Date(2020, 9, 14)
+    date: new Date(2020, 9, 21)
   },
   {
     name: "Lecture: Natural Language Understanding",
@@ -75,7 +75,7 @@ let events = [
   {
     name: "Beginners Workshop: What is Machine Learning?",
     desc: "This workshop led by Gassan, the Head of Tech, will introduce the basic concepts of ML, including basic notation, stats and curve fitting.",
-    date: new Date(2020, 9, 20)
+    date: new Date(2020, 9, 13)
   },
   {
     name: "Beginners Workshop: What makes up a learning algorithm?",
