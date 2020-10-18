@@ -2,31 +2,31 @@
 // month is 0 indexed - so jan is 0
 
 let events = [
-  // {
-  //   name: "Virtual Society Fair (Undergrad)",
-  //   desc: "Visit our society's virtual stall at the University of Manchester's SU Fair for undergraduate students.",
-  //   date: new Date(2020, 9, 6)
-  // },
-  // {
-  //   name: "Harry Potter Escape Room Social",
-  //   desc: "Come on over to our first social, it will be a Harry Potter style virtual escape room.",
-  //   date: new Date(2020, 9, 1)
-  // },
-  // {
-  //   name: "Virtual Society Fair (Postgrad)",
-  //   desc: "Visit our society's virtual stall at the University of Manchester's SU Fair for postgraduate students.",
-  //   date: new Date(2020, 9, 9)
-  // },
-  // {
-  //   name: "Society Expo",
-  //   desc: "Watch our society's video during the academic society expo, and learn more about the society and the committee.",
-  //   date: new Date(2020, 9, 5)
-  // },
-  // {
-  //   name: "Beginners Workshop: What is Machine Learning?",
-  //   desc: "This workshop led by Gassan, the Head of Tech, will introduce the basic concepts of ML, including basic notation, stats and curve fitting.",
-  //   date: new Date(2020, 9, 13)
-  // },
+  {
+    name: "Virtual Society Fair (Undergrad)",
+    desc: "Visit our society's virtual stall at the University of Manchester's SU Fair for undergraduate students.",
+    date: new Date(2020, 9, 6)
+  },
+  {
+    name: "Harry Potter Escape Room Social",
+    desc: "Come on over to our first social, it will be a Harry Potter style virtual escape room.",
+    date: new Date(2020, 9, 1)
+  },
+  {
+    name: "Virtual Society Fair (Postgrad)",
+    desc: "Visit our society's virtual stall at the University of Manchester's SU Fair for postgraduate students.",
+    date: new Date(2020, 9, 9)
+  },
+  {
+    name: "Society Expo",
+    desc: "Watch our society's video during the academic society expo, and learn more about the society and the committee.",
+    date: new Date(2020, 9, 5)
+  },
+  {
+    name: "Beginners Workshop: What is Machine Learning?",
+    desc: "This workshop led by Gassan, the Head of Tech, will introduce the basic concepts of ML, including basic notation, stats and curve fitting.",
+    date: new Date(2020, 9, 13)
+  },
   {
     name: "Lecture: Time-Series and Forecasting",
     desc: "Our first lecture will be on Bike Sharing, Time-Series and Forecasting, led by Yann, one of our project managers.",
