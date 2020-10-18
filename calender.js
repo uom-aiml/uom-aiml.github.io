@@ -198,7 +198,7 @@ function fillEvents(dateGiven) {
 
   for (event of eventsShown) {
     if (typeof dateGiven === "undefined") {
-      if (event.date.getDate()<dateDisplayed){
+      if (event.date.getMonth() == monthDisplayed && event.date.getDate()<dateDisplayed){
         continue
       }
     }
