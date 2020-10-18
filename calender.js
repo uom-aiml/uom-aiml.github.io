@@ -2,26 +2,31 @@
 // month is 0 indexed - so jan is 0
 
 let events = [
-  {
-    name: "Virtual Society Fair (Undergrad)",
-    desc: "Visit our society's virtual stall at the University of Manchester's SU Fair for undergraduate students.",
-    date: new Date(2020, 9, 6)
-  },
-  {
-    name: "Harry Potter Escape Room Social",
-    desc: "Come on over to our first social, it will be a Harry Potter style virtual escape room.",
-    date: new Date(2020, 9, 1)
-  },
-  {
-    name: "Virtual Society Fair (Postgrad)",
-    desc: "Visit our society's virtual stall at the University of Manchester's SU Fair for postgraduate students.",
-    date: new Date(2020, 9, 9)
-  },
-  {
-    name: "Society Expo",
-    desc: "Watch our society's video during the academic society expo, and learn more about the society and the committee.",
-    date: new Date(2020, 9, 5)
-  },
+  // {
+  //   name: "Virtual Society Fair (Undergrad)",
+  //   desc: "Visit our society's virtual stall at the University of Manchester's SU Fair for undergraduate students.",
+  //   date: new Date(2020, 9, 6)
+  // },
+  // {
+  //   name: "Harry Potter Escape Room Social",
+  //   desc: "Come on over to our first social, it will be a Harry Potter style virtual escape room.",
+  //   date: new Date(2020, 9, 1)
+  // },
+  // {
+  //   name: "Virtual Society Fair (Postgrad)",
+  //   desc: "Visit our society's virtual stall at the University of Manchester's SU Fair for postgraduate students.",
+  //   date: new Date(2020, 9, 9)
+  // },
+  // {
+  //   name: "Society Expo",
+  //   desc: "Watch our society's video during the academic society expo, and learn more about the society and the committee.",
+  //   date: new Date(2020, 9, 5)
+  // },
+  // {
+  //   name: "Beginners Workshop: What is Machine Learning?",
+  //   desc: "This workshop led by Gassan, the Head of Tech, will introduce the basic concepts of ML, including basic notation, stats and curve fitting.",
+  //   date: new Date(2020, 9, 13)
+  // },
   {
     name: "Lecture: Time-Series and Forecasting",
     desc: "Our first lecture will be on Bike Sharing, Time-Series and Forecasting, led by Yann, one of our project managers.",
@@ -33,69 +38,64 @@ let events = [
     date: new Date(2020, 9, 21)
   },
   {
+    name: "Beginners Workshop: What makes up a learning algorithm?",
+    desc: "This workshop will discuss datasets, cost functions, optimization routines, parameter fitting and hyperparameters.",
+    date: new Date(2020, 9, 27)
+  },
+  {
     name: "Lecture: Natural Language Understanding",
     desc: "Our second lecture on Natural Language Understanding with BERT, led by Mateusz, the president of the society.",
-    date: new Date(2020, 9, 27)
+    date: new Date(2020, 10, 3)
   },
   {
     name: "Advanced Workshop: Natural Language Understanding",
     desc: "This workshop will follow on from our lecture on Natural Language Understanding.",
-    date: new Date(2020, 9, 28)
-  },
-  {
-    name: "Lecture: Adversarial Attacks on CNNs",
-    desc: "Our third lecture will be on Adversarial Attacks on CNNs and Blackbox Attacks, led by Ivan, one of our project managers.",
-    date: new Date(2020, 10, 10)
-  },
-  {
-    name: "Advanced Workshop: Adversarial Attacks on CNNs",
-    desc: "This workshop will follow on from our lecture on Adversarial Attacks on CNNs and Blackbox Attacks.",
-    date: new Date(2020, 10, 11)
-  },
-  {
-    name: "Lecture 4",
-    desc: "TBC",
-    date: new Date(2020, 10, 24)
-  },
-  {
-    name: "Advanced Workshop 4",
-    desc: "TBC",
-    date: new Date(2020, 10, 25)
-  },
-  {
-    name: "Lecture 5",
-    desc: "TBC",
-    date: new Date(2020, 11, 8)
-  },
-  {
-    name: "Advanced Workshop 5",
-    desc: "TBC",
-    date: new Date(2020, 11, 9)
-  },
-  {
-    name: "Beginners Workshop: What is Machine Learning?",
-    desc: "This workshop led by Gassan, the Head of Tech, will introduce the basic concepts of ML, including basic notation, stats and curve fitting.",
-    date: new Date(2020, 9, 13)
-  },
-  {
-    name: "Beginners Workshop: What makes up a learning algorithm?",
-    desc: "This workshop will discuss datasets, cost functions, optimization routines, parameter fitting and hyperparameters.",
-    date: new Date(2020, 10, 3)
+    date: new Date(2020, 10, 4)
   },
   {
     name: "Beginners Workshop: Traditional learning algorithms",
     desc: "This workshop will discuss Linear Regression, Logistic Regression, Decision Trees, Random Forest, SVM and k-Nearest Neighbors.",
+    date: new Date(2020, 10, 10)
+  },
+  {
+    name: "Lecture: Adversarial Attacks on CNNs",
+    desc: "Our third lecture will be on Adversarial Attacks on CNNs and Blackbox Attacks, led by Ivan, one of our project managers.",
     date: new Date(2020, 10, 17)
+  },
+  {
+    name: "Advanced Workshop: Adversarial Attacks on CNNs",
+    desc: "This workshop will follow on from our lecture on Adversarial Attacks on CNNs and Blackbox Attacks.",
+    date: new Date(2020, 10, 18)
   },
   {
     name: "Beginners Workshop: Basics of Neural Nets",
     desc: "This workshop will look at Feedforward neural network architecture and Deep Learning Basics.",
+    date: new Date(2020, 10, 24)
+  },
+  {
+    name: "Lecture 4",
+    desc: "TBC",
     date: new Date(2020, 11, 1)
+  },
+  {
+    name: "Advanced Workshop 4",
+    desc: "TBC",
+    date: new Date(2020, 11, 2)
   },
   {
     name: "Beginners Workshop: Covnets and Sequential Models",
     desc: "This workshop will look at use cases of Covnets and Sequential Models and discuss where and why they supersede fully connected neural network architectures.",
+    date: new Date(2020, 11, 8)
+  },
+  {
+    name: "Lecture 5",
+    desc: "TBC",
     date: new Date(2020, 11, 15)
+  },
+  {
+    name: "Advanced Workshop 5",
+    desc: "TBC",
+    date: new Date(2020, 11, 16)
   },
 ];
 
