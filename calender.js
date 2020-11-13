@@ -58,6 +58,11 @@ let events = [
     date: new Date(2020, 10, 10)
   },
   {
+    name: "Pub and Games Night",
+    desc: "Join us for the lockdown edition of pub and games night. We will be playing a variety of games such as skribbl and among us.",
+    date: new Date(2020, 10, 13)
+  },
+  {
     name: "Lecture: Adversarial Attacks on CNNs",
     desc: "Our third lecture will be on Adversarial Attacks on CNNs and Blackbox Attacks, led by Ivan, one of our project managers.",
     date: new Date(2020, 10, 17)
@@ -198,6 +203,9 @@ function fillEvents(dateGiven) {
 
   for (event of eventsShown) {
     if (typeof dateGiven === "undefined") {
+      if (event.date.getMonth() < monthDisplayed){
+        continue
+      }
       if (event.date.getMonth() == monthDisplayed && event.date.getDate()<dateDisplayed){
         continue
       }
